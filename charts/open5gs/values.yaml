@@ -1,4 +1,4 @@
-dbURI: "mongodb://{{ .Release.Name }}-mongodb/open5gs"
+dbURI: "mongodb://{{ .Release.Name }}-mongodb/open5gs&ssl=true"
 
 populate:
   enabled: true
